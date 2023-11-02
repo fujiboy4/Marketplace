@@ -19,7 +19,7 @@ public class Main extends JavaPlugin {
 
     @Override
     public void onDisable() {
-
+        getServer().getConsoleSender().sendMessage(ChatUtils.PLUGIN_PREFIX + "Shutting down Marketplace, saving configs, files, etc...");
     }
 
 }
